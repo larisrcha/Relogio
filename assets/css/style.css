@@ -1,0 +1,131 @@
+@import url(../fonts/fonts.css);
+@import url(../css/root.css);
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+}
+
+body {
+    height: 100vh;
+    background-image: url(../img/grid.png);
+    justify-content: center;
+    display: flex;
+    align-items: center;   
+}
+
+.relogio {
+    display: flex;
+    border-right: 1px solid #bbbbbb;
+    border-left: 1px solid #bbbbbb;
+    border-top: 1px solid #bbbbbb;
+    border-bottom: 1px solid #bbbbbb;
+    align-items: center;
+    justify-content: space-around;
+    height: 194px;
+    width: 522px;
+    background: #7d7c7c21;
+    border-radius: 20px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.1);
+}
+
+.relogio div {
+    height: 170px;
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #6a6a6a;
+    background: rgb(255 255 255 / 0%);
+    border-radius: 45px;
+    box-shadow: 5px 2px 20px rgb(255 255 255 / 20%);
+    border: 8px;
+    letter-spacing: 3px;
+}
+
+.relogio span {
+    font-weight: bolder;
+    font-size: 60px;
+}
+
+.relogio span.tempo {
+    font-size: 10px;
+}
+
+.sep {
+    margin-top: -22px;
+    font-size: 60px;
+    color: #6a6a6a;
+}
+
+.separacao {
+    margin-left: -362px;
+}
+
+.separacao2 {
+    margin-left: 140px;
+}
+
+.card {
+    margin: -189px -16px 0 -16px;
+    border-top: 1px solid #bbbbbb;
+    border-left: 1px solid #bbbbbb;
+    border-right: 1px solid #bbbbbb;
+    border-bottom: 1px solid #bbbbbb;
+    position: absolute;
+    width: 492px;
+    padding: 10px 15px;
+    font-size: 11px;
+    letter-spacing: 1px;
+    font-family: nunito;
+    background-color: #fafafa;
+    color: #666666;
+    height: 9px;
+    text-transform: lowercase;
+    box-shadow: 3px 0px 4px 0px rgba(0, 0, 0, 0.1);
+}
+
+.ptop-3dots {
+    position: absolute;
+    margin-left: 447px;
+    width: 60px;
+    margin-top: -1px;
+}
+
+.ptop-dot {
+    display: inline-block;
+    margin-right: 5px;
+    width: 10px;
+    height: 10px;
+    border-radius: 3px;
+    background-color: #000;
+}
+
+.dot1 {
+    background-color: var(--a2);
+}
+
+.dot2 {
+    background-color: var(--a3);
+}
+
+.dot3 {
+    background-color: var(--a4);
+}
+
+a {
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    position: fixed;
+    bottom: 12px;
+    right: 12px;
+    font-size: 7px;
+    letter-spacing: 1px;
+    background-color: #6a6a6a;
+    color: #fff;
+    padding: 4px 7px;
+    border-radius: 5px;
+    cursor: pointer;
+}
